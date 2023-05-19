@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Registration Form </title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xeqwoqan"
+    method="POST" >
+<div>
+<label for="fullname"> Fullname </label>
+<input type="text" name="fullname" id="fullname" required >
+</div><br>
+<div>
+<label for="email"> Email </label> 
+<input type="email" name="email" id="email"required>
+</div><br>
+<div>
+<label for="password">Password</label>
+<input type="password" name="password" id="password">
+</div><br>
+<div>
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="dob" id="dob">
+</div><br>
+<div>
+<label for="photo">Choose Your Photo</label>
+<input type="file" name="photo" id="photo">
+</div><br>
+<div>
+    <label for="gender">Gender</label>
+<input type="radio" name="gender" id="gender" value="male">Male
+<input type="radio" name="gender" id="gender" value="female">Female
+</div><br>
+<div>
+<label for="religion">Religion</label>
+<input type="checkbox" name="religion" id="muslim" value="islam">Islam
+<input type="checkbox" name="religion" id="hindu" value="hindu">Hindu
+</div><br>
+<div>
+<label for="department">Department</label>
+<select name="department">
+    <option value="cse">CSE</option>
+    <option value="eee">EEE</option>
+    <option value="swe" selected>SWE</option>
+</select>
+</div><br>
+<div>
+<label for="message">Message</label><br>
+<textarea cols="30" rows="15"></textarea>
+</div>
+<div>
+    <input type="submit" value="Register">
+    <input type="reset"   value="clear">
+</div>
+</form>
+</body>
+
+
+
+
+
+
+
+
+</body>
+</html>
